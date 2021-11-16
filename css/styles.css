@@ -1,0 +1,148 @@
+html, body {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin-top: 136px;
+  margin-bottom: 136px;
+  background-color: #f0ecec;
+}
+
+nav {
+  height: 80px;
+  background-color: white;
+  -webkit-box-shadow: 0 3px 6px #9c9595;
+          box-shadow: 0 3px 6px #9c9595;
+}
+
+.logo {
+  height: 50px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-size: 35px;
+  margin: 0;
+}
+
+a {
+  color: #145681;
+}
+
+a:hover {
+  color: #196ba0;
+}
+
+.previous-page {
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.chevron-right {
+  margin: 0 15px;
+}
+
+.card {
+  height: 200px;
+  margin-top: 25px;
+  padding: 15px;
+  -webkit-box-shadow: 0 3px 6px #9c9595;
+          box-shadow: 0 3px 6px #9c9595;
+  border-radius: 0;
+}
+
+.card .card-title {
+  font-size: 25px;
+}
+
+.card a {
+  height: 100%;
+}
+
+.success {
+  background: #17CE18;
+}
+
+.warning {
+  background: #FFB120;
+}
+
+.danger {
+  background: #F56B6B;
+}
+
+.environment {
+  font-size: 19px;
+  margin: 50px 0 50px 0;
+}
+
+.environment table {
+  margin-top: 50px;
+}
+
+.environment-info {
+  margin-bottom: 15px;
+}
+
+.environment-info span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+thead {
+  background-color: #0A2A3F;
+  color: white;
+}
+
+thead th {
+  font-weight: 600;
+}
+
+tbody {
+  font-weight: 500;
+}
+
+tbody tr {
+  border-top: 1px solid #f0ecec;
+  border-bottom: 1px solid #f0ecec;
+}
+
+tbody tr:last-child td {
+  color: #730249;
+  border-bottom: 1px solid #730249 !important;
+  border-top: 1px solid #730249 !important;
+}
+
+.table td, .table th {
+  border-top: none;
+}
+
+footer {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  -webkit-box-shadow: 0 3px 6px #9c9595;
+          box-shadow: 0 3px 6px #9c9595;
+  padding: 25px 0;
+}
+
+.version-2 {
+  font-size: 25px;
+  margin-top: 150px;
+}
+/*# sourceMappingURL=styles.css.map */

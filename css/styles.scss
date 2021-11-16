@@ -1,0 +1,149 @@
+@import "variables";
+
+html, body {
+    font-family: $font;
+}
+
+body {
+    margin-top: $nav-height * 1.7;
+    margin-bottom: $nav-height * 1.7;
+    background-color: $grey;
+}
+
+nav {
+    height: $nav-height;
+    background-color: white;
+    box-shadow: $shadow;
+}
+
+.logo{
+    height: $xl;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-bottom: $l;
+}
+
+h1{
+    font-size: 35px;
+    margin: 0;
+}
+
+a{ 
+    color: lighten($primary-color, 15%);
+
+    &:hover{
+        color: lighten($primary-color, 22%);
+    }
+}
+
+// Breadcrumb styling
+.previous-page{
+    font-size: $l;
+    margin-right: $s;
+}
+
+.chevron-right{
+    margin: 0 $m;
+}
+
+// Cards
+.card {
+    height: 200px;
+    margin-top: $l;
+    padding: $m;
+    box-shadow: $shadow;
+    border-radius: 0;
+
+    .card-title{
+        font-size: $l;
+    }
+
+    a {
+        height: 100%;    
+    }
+
+}
+
+// Cards RAG
+.success{
+    background: $success;
+}
+.warning{
+    background: $warning;
+}
+.danger{
+    background: $danger;
+}
+
+// Table styling
+.environment {
+    font-size: 19px;
+    margin: $xl 0 $xl 0;
+
+    table{
+        margin-top: $xl;
+    }
+}
+
+.environment-info{
+    margin-bottom: $margin-m;
+
+    span {
+        display:block;
+        margin-bottom: $margin-s;
+    }
+
+}
+
+thead{
+    background-color: $primary-color;
+    color: white;
+    th{
+        font-weight: 600;
+    }
+}
+
+
+tbody{
+    font-weight: 500;
+
+    tr{
+        border-top: 1px solid $grey;
+        border-bottom: 1px solid $grey;
+    }
+
+
+
+    tr:last-child{
+        td{
+            color: $secondary-color;
+            border-bottom: 1px solid $secondary-color!important;
+            border-top: 1px solid $secondary-color!important;
+        }
+
+    }
+}
+
+.table td, .table th {
+    border-top: none;
+}
+
+footer{
+    height: $nav-height;
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    background-color: white;
+    box-shadow: $shadow;
+    padding: $l 0;
+}
+
+// Can be removed - version 2 link styling
+.version-2{
+    font-size: $l;
+    margin-top: $xl * 3;
+}

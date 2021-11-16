@@ -1,0 +1,30 @@
+//Variables
+//Height
+$nav-height: 80px;
+
+//Sizes
+$s:5px;
+$m:15px;
+$l:25px;
+$xl:50px;
+
+//Color palette
+$primary-color: #0A2A3F;
+$secondary-color: #730249;
+$grey: rgb(240, 236, 236);
+$dark-grey: rgb(156, 149, 149);
+
+$success: #17CE18;
+$warning: #FFB120;
+$danger: #F56B6B;
+
+//Fonts
+$font: 'Lato', Arial, Helvetica, sans-serif;
+
+$shadow:0 3px 6px $dark-grey;
+
+//can be removed
+$margin-s: $s;
+$margin-m: $m;
+$margin-l: $l;
+$margin-xl: $xl;
